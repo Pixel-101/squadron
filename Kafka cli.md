@@ -3,7 +3,7 @@
 
 Initially we used cli(cmd) to run the producer as well as the consumer server on our local machine. Used Zookeeper server to run kafka services.
 
-Kafka has 5 main APIs that do the majority of the work.
+	Kafka has 5 main APIs that do the majority of the work.
 	1) Producer API:  Permits the application to publish streams of records(Broadcast) 
 	2) Consumer API: Permits an application to subscribe to topics and process streams of records.
 	3) Streams API: Converts the input streams to output streams either processing the input streams or  sending the same ones forward
