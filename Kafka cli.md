@@ -11,10 +11,10 @@ Kafka has 5 main APIs that do the majority of the work.
 	5) Admin API: Used to manage Kafka topics, brokers, and other Kafka objects.
 	
 	
-Important terms: 
--Broker: A broker is a Kafka server that runs in a Kafka cluster( in a localhost, its the zookeeper server)
--Controller:  One of the brokers serves as the controller, which is responsible for managing the states of the partitions and replicas and for performing administrative tasks like re-assigning partitions.
--Partitions: A partition is basically how Kafka breaks down a data set and keep it in different nodes of cluster. 
+	Important terms: 
+			-Broker: A broker is a Kafka server that runs in a Kafka cluster( in a localhost, its the zookeeper server)
+			-Controller:  One of the brokers serves as the controller, which is responsible for managing the states of the partitions and replicas and for performing administrative tasks like re-assigning partitions.
+			-Partitions: A partition is basically how Kafka breaks down a data set and keep it in different nodes of cluster. 
 
   
   ```
